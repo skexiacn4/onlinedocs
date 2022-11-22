@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0"/>
+    <title>THESIS</title>
+        <link rel="stylesheet" href="style2.css"/>
+    </head>
+        
+    <body>
+
+        <header>
+            <div id="brand"><a href="/">MyCompany</a></div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/Contact">Contact</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/about">Blog</a></li>
+                    </ul>
+                </nav>
+                <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                    <ul class="mobile-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/Contact">Contact</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/about">Blog</a></li>
+                    </ul>
+                </div>
+        </header>
+<body>
+
+ <h2>REQUEST FORM</h2>
+
+ <form action="send.php" method="post">
+
+ <label for="name">Your Name</label>
+ <input type="text" name="name" placeholder="Your Name">
+
+ <label for="Email">Email</label>
+ <input type="Email" name="Subject" placeholder="Email">
+
+ <label for="name">Name</label>
+ <input type="text" name="name" placeholder="Your Name">
+
+ <input type="submit" value="submit">
+
+  <script src="index.js"></script>
+
+      
+    
+    </body>
+
+</html>
